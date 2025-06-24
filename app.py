@@ -64,7 +64,7 @@ if uploaded_file is not None:
         features = extract_features(tmp_path).reshape(1, -1)
 
         # Predict and decode
-        predicted_index = model.predict(features)[0]
+        predicted_index = model.predict(features)
         predicted_emotion = label_encoder.inverse_transform([predicted_index])[0]
 
         # Confidence

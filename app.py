@@ -46,7 +46,7 @@ def extract_features(file_name):
     return np.hstack([mfcc, delta, log_mel, zcr, spectral])
 
 # === Load Model and LabelEncoder ===
-model = joblib.load("model/random_forest_model.pkl")
+model = joblib.load("model/trained_model.pkl.pkl")
 label_encoder = joblib.load("model/label_encoder.pkl")
 
 # === File Upload & Prediction ===

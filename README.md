@@ -240,17 +240,11 @@ You can test the trained model using the Jupyter notebook:
 **File:** `test_model.ipynb`
 
 This allows testing on any `.wav` file and outputs the predicted emotion label.
-
-Example
 test_file = "test.wav"
 ---
 
-
 ##  Streamlit Deployment
-
----
-
-##  Live Demo
+Live Demo
 
 You can try out the deployed Streamlit web app here:
 

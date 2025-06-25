@@ -233,18 +233,32 @@ Each audio file is processed into a **220+ dimensional feature vector**.
 
 
 ---
+##  Offline Emotion Prediction (Notebook)
+
+You can test the trained model using the Jupyter notebook:
+
+**File:** `test_model.ipynb`
+
+This allows testing on any `.wav` file and outputs the predicted emotion label.
+
+# Example
+test_file = "test.wav"
+---
+
 
 ##  Streamlit Deployment
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 You can try out the deployed Streamlit web app here:
 
 👉 **[Emotion Recognition App](https://marsprojectapp-33hckpieodv92lspyiiczn.streamlit.app/)**
 
 > Upload a `.wav` file to predict the emotion using audio signal features like MFCC, ZCR, Spectral Contrast, etc.
+
+
 
 
 

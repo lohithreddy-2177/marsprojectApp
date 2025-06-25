@@ -241,7 +241,7 @@ You can test the trained model using the Jupyter notebook:
 
 This allows testing on any `.wav` file and outputs the predicted emotion label.
 
-# Example
+Example
 test_file = "test.wav"
 ---
 
